@@ -1,6 +1,4 @@
-# Gherkin-BDD
-
-# Cenario
+######################  Cenario #####################################
 # Funcionalidade: Restaurantes
     Para que eu possa saber quais os restaurantes disponiveis com o tempo
     Sendo um usuario que deseja pedir comida
