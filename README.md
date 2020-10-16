@@ -16,5 +16,4 @@
         Quando acesso a lista de Restaurantes
         Entao deve ver todos os restaurantes
         
-# Validando Restaurante Cenario em NodeJs
-#Cenario ficticio apenas para estudos.
+
