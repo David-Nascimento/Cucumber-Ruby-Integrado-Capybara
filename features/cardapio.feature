@@ -8,7 +8,7 @@ Funcionalidade: Cardapio
 @cardapio
     Cenario: Produto
         Dado que eu acesso o sistema
-        Quando eu acesso o restaurante "Burger House"
+        Quando eu escolho o restaurante "Burger House"
         Entao vejo os seguintes items disponiveis no cardapio:
         | produto           | descricao                         | preco     |
         | Classic Burger    | O clássico. Não tem como errar.   | R$ 18,50  |
