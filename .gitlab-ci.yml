@@ -7,8 +7,8 @@ before_script:
 
 image: ruby:alpine
 
-dev:
-  stage: dev
+build:
+  stage: build
   script:
   - cd enjoeat-sp2
   - npm install
