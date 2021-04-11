@@ -2,11 +2,25 @@ before_script:
   - chmod +x alpine.sh
   - ./alpine.sh
   - gem install bundle --no-document
+  - chmod +x node.sh
+  - ./node.sh
 
 image: ruby:alpine
+
+dev:
+  stage: dev
+  script:
+  - cd enjoeat-sp2
+  - npm install
+  - npm start
 
 test:
   stage: test
   script:
+  - cd ..
   - bundle install
   - bundle exec cucumber
+  artifacts:
+    when: always
+    paths:
+      - log/report.html
