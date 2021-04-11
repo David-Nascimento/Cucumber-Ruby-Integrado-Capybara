@@ -1,0 +1,10 @@
+before_script:
+  - ./alpine.sh
+
+image: ruby:alpine
+
+test:
+  stage: test
+  script:
+  - bundle install
+  - bundle exec cucumber
