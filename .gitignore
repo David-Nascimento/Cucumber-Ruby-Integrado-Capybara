@@ -52,3 +52,4 @@ build-iPhoneSimulator/
 Gemfile.lock
 log/*.html
 logs/*.png
+node_modules/
