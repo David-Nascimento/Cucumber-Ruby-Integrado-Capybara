@@ -1,4 +1,5 @@
 before_script:
+  - chmod +x alpine.sh
   - ./alpine.sh
   - gem install bundle --no-document
 
