@@ -1,0 +1,2 @@
+default: -p html -f pretty
+html: -f html -o log/report.html

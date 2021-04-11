@@ -1,5 +1,6 @@
 before_script:
   - ./alpine.sh
+  - gem install bundle --no-document
 
 image: ruby:alpine
 
