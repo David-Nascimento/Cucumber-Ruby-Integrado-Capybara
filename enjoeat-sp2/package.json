@@ -1,0 +1,20 @@
+{
+  "name": "ejoeat",
+  "version": "1.0.0",
+  "description": "Angular Enjoeat for QA Ninja Training",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "qaninja"
+  ],
+  "author": "Papito",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "json-server": "^0.12.1",
+    "nodemon": "^1.19.1"
+  }
+}
