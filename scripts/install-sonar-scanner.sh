@@ -17,7 +17,7 @@ echo "Installing to opt..."
 if [ -d "/var/opt/sonar-scanner-3.2.0.1227-linux" ];then
     sudo rm -rf /var/opt/sonar-scanner-cli-4.6.0.2311-linux
 fi
-sudo mv sonar-scanner-cli-4.6.0.2311-linux /var/opt
+sudo mv sonar-scanner-cli-4.6.0.2311-linux/ /var/opt
 
 echo "Installation completed successfully."
 
