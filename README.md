@@ -60,3 +60,5 @@ Funcionalidade: Restaurantes
     Quando fazemos o Desenvolvimento Orientado por Comportamento com o Cucumber, usamos exemplos concretos para especificar o que queremos que o software faça. Os cenários são gravados antes do código de procução. Eles começam sua vida como uma especificação executavél. À medida que o código de produção surge, os cenários assumem um papel como documentação viva e testes automatizados!
     
 Pronto, agora podemos começar a trabalhar com especificações e automação para projeto ágeis.
+
+[Gitflow](https://github.com/David-Nascimento/Cucumber-Ruby-Integrado-Capybara/commits/master)
