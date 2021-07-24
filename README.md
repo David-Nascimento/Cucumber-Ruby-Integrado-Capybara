@@ -1,4 +1,4 @@
-#Vamos Criar um projeto do ZERO
+# Vamos Criar um projeto do ZERO
 >você foi contratado para trabalhar no Projeto Enjoeat, um projeto de Desenvolvimento ágil. E vamos trabalhar juntos para desenvolver um WebApp parecido com o iFood.
 
 Vamos comecar criando um novo diretorio e um projeto Ruby vazio.
