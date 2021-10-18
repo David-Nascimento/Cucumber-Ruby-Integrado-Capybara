@@ -2,14 +2,14 @@
 >você foi contratado para trabalhar no Projeto Enjoeat, um projeto de Desenvolvimento ágil. E vamos trabalhar juntos para desenvolver um WebApp parecido com o iFood.
 
 Vamos comecar criando um novo diretorio e um projeto Ruby vazio.
-```
+```sh
 mkdir enjoat
 
 cd enjoat
 ```
 
 ### Crie um Gemfile com o seguinte conteudo:
-```
+```Ruby
 source "https://rubygems.org"
 
 group :teste do
@@ -20,14 +20,14 @@ group :teste do
 end
 ```     
 ### Instale todas as dependencias e crie um projeto Cucumber:
-```
+```sh
 bundle install
 
 cucumber --init
 ```
 ### Dentro da pasta features, crie um arquivo chamado
 Restaurantes.feaute e dentro de, escreva a seguinte especificacao:
-```
+```cucumber
 #language:pt
 Funcionalidade: Restaurantes
     Para que eu possa saber quais os restaurantes disponiveis com o tempo de entrega e nota de avaliacao
