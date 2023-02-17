@@ -1,5 +1,5 @@
-# Vamos Criar um projeto do ZERO
->você foi contratado para trabalhar no Projeto Enjoeat, um projeto de Desenvolvimento ágil. E vamos trabalhar juntos para desenvolver um WebApp parecido com o iFood.
+# Projeto Enjoeat
+Este é um projeto de desenvolvimento ágil para criar um WebApp semelhante ao iFood. O objetivo é usar o Desenvolvimento Orientado por Comportamento com o Cucumber para especificar e automatizar os testes do software.
 
 Vamos comecar criando um novo diretorio e um projeto Ruby vazio.
 ```sh
@@ -8,7 +8,7 @@ mkdir enjoat
 cd enjoat
 ```
 
-### Crie um Gemfile com o seguinte conteudo:
+### Em seguida, crie um Gemfile com as seguintes dependências::
 ```Ruby
 source "https://rubygems.org"
 
@@ -18,15 +18,16 @@ group :teste do
     gem 'rspec', '3.7.0'
     gem 'selenium-webdriver', '3.141'
 end
-```     
-### Instale todas as dependencias e crie um projeto Cucumber:
+```    
+
+### Instale todas as dependências e crie um projeto Cucumber:
 ```sh
 bundle install
 
 cucumber --init
 ```
-### Dentro da pasta features, crie um arquivo chamado
-Restaurantes.feaute e dentro de, escreva a seguinte especificacao:
+### Especificação do Recurso de Restaurantes
+Dentro da pasta features, crie um arquivo chamado Restaurantes.feature e adicione a seguinte especificação:
 ```cucumber
 #language:pt
 Funcionalidade: Restaurantes
@@ -47,18 +48,16 @@ Funcionalidade: Restaurantes
         Entao cada restaurante deve exibir sua nota de avaliacao
 ```
 
-### Como ficou?
-    A linha três deste arquivo começa com a plavra-chave Funcionalidade: segyuda pelo nome Restaurantes. É uma boa prática usar o nome semelhante ao nome do arquivo.
+A linha três deste arquivo começa com a palavra-chave Funcionalidade, seguida pelo nome Restaurantes. É uma boa prática usar o nome semelhante ao nome do arquivo.
 
-    A segunda linha é uma breve descrição do recurso, em nosso caso a estória do usuário. o Cucumber não executa essa linha, pois é apenas a documentação.
+A segunda linha é uma breve descrição do recurso, em nosso caso a estória do usuário. O Cucumber não executa essa linha, pois é apenas a documentação.
 
-    Na sequencia temos os cenários, que são exemplos concretos que ilustram como a aplicação deverá se comportar.
+Na sequência temos os cenários, que são exemplos concretos que ilustram como a aplicação deverá se comportar.
 
-    Por fim temos os steps Quando e Então que são os passos do nosso cenário.
-    Isto é o que Cucumber irá executar.
-  
-    Quando fazemos o Desenvolvimento Orientado por Comportamento com o Cucumber, usamos exemplos concretos para especificar o que queremos que o software faça. Os cenários são gravados antes do código de procução. Eles começam sua vida como uma especificação executavél. À medida que o código de produção surge, os cenários assumem um papel como documentação viva e testes automatizados!
-    
-Pronto, agora podemos começar a trabalhar com especificações e automação para projeto ágeis.
+Por fim, temos os steps Quando e Então que são os passos do nosso cenário. Isto é o que o Cucumber irá executar.
+
+Quando fazemos o Desenvolvimento Orientado por Comportamento com o Cucumber, usamos exemplos concretos para especificar o que queremos que o software faça. Os cenários são gravados antes do código de produção. Eles começam sua vida como uma especificação executável. À medida que o código de produção surge, os cenários assumem um papel como documentação viva e testes automatizados!
+
+Com as especificações e automação, podemos começar a trabalhar em projetos ágeis de forma mais eficiente.
 
 [Gitflow](https://github.com/David-Nascimento/Cucumber-Ruby-Integrado-Capybara/commits/master)
